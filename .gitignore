@@ -1,0 +1,21 @@
+# ROS 2 / colcon build outputs
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large recordings (link the demo instead)
+*.mp4
+*.mkv
+*.mov
