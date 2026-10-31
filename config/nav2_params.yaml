@@ -1,0 +1,17 @@
+# STARTER NOTE — this is intentionally not a complete Nav2 parameter file.
+#
+# Do NOT pass this file to Nav2 as params_file. Nav2 needs a complete,
+# robot-specific parameter set for map_server, amcl, planner_server,
+# controller_server, bt_navigator, costmaps, lifecycle manager, etc.
+#
+# First run the tested reference configuration:
+#   ros2 launch nav2_bringup tb3_simulation_launch.py headless:=False
+#
+# Find installed candidate configurations:
+#   find /opt/ros/jazzy/share -path '*nav2*' -name 'nav2_params.yaml'
+#
+# Copy the configuration that belongs to the launch/package you are using,
+# commit that full file here, and then make small documented changes.
+#
+# Keep use_sim_time: True for Gazebo simulation. Verify frame names and topics
+# against the actual robot (e.g. map, odom, base_link, scan) before use.
